@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"eaf2212f-1d20-40ee-9fc3-ea279c1394f1","feature":"verify upgrade link","scenario":"Verify menu list on home page","start":1746282860654,"group":17,"content":"","tags":"","end":1746282903761,"className":"failed"},{"id":"a48c680a-edde-4010-bb8e-b311e30445bc","feature":"verify upgrade link","scenario":"Verify upgrade link is displayed on home page","start":1746282860655,"group":16,"content":"","tags":"","end":1746282900580,"className":"passed"},{"id":"ba4034cb-06d1-40a8-806a-bfeac38dfdbd","feature":"Login","scenario":"valid login","start":1746282860658,"group":18,"content":"","tags":"","end":1746282902781,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":16,"content":"Thread[TestNG-PoolService-1,5,main]"},{"id":17,"content":"Thread[TestNG-PoolService-2,5,main]"},{"id":18,"content":"Thread[TestNG-PoolService-3,5,main]"}]);
+});
