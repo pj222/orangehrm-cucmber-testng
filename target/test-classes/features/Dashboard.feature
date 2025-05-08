@@ -21,3 +21,6 @@ Feature: verify upgrade link
       | Claim       |
       | Buzz        |
     And count is 12
+
+    Scenario: Verify help link on home page
+    Then help link is clickable

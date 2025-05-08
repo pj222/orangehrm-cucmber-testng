@@ -46,6 +46,10 @@ public class Dashboard_stepdef {
 	   Assert.assertTrue(db.getMenucount()==int1);
 	}
 
+	@Then("help link is clickable")
+	public void help_link_is_clickable() {
+	    
+	}
 
 
 	}

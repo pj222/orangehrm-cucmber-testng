@@ -18,6 +18,7 @@ public class DashboardPage {
     private By dbTitle = By.xpath("//*[@id='app']/div[1]/div[1]/header/div[1]/div[1]/span/h6");
     private By updatebtn=By.cssSelector("button.oxd-glass-button.orangehrm-upgrade-button");
     private By menulist=By.xpath("//*[@class='oxd-main-menu']/li/a/span");
+    private By helplink=By.cssSelector("i.oxd-icon.bi-question-lg");
     public String getDashboardTitle() {
         return driver.findElement(dbTitle).getText();
     }
@@ -45,5 +46,9 @@ public class DashboardPage {
     	
 		return count;
     	
+    }
+    public void verify_helplink()
+    {
+    	driver.findElement(helplink).click();
     }
 }
